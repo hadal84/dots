@@ -43,3 +43,6 @@
 (setq treemacs-git-mode 'simple)
 (setq treemacs-position 'right)
 (setq treemacs-display-in-persp-mode 'right)
+
+;;; do not prompt when exiting emacs
+(setq confirm-kill-emacs nil)
