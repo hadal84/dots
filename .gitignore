@@ -2,3 +2,5 @@ gitconfig/
 zsh/
 nvim/lazy-lock.json
 .DS_Store
+emacs/
+spicetify/
