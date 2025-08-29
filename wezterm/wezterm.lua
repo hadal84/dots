@@ -26,13 +26,7 @@ config.keys = {
                 key = "w",
                 mods = "CMD",
                 action = wezterm.action.CloseCurrentPane({ confirm = true }),
-        },
-        -- ADD YOUR NEW PANE NAVIGATION KEYBINDINGS HERE
-        -- Make sure there's a comma after the last existing keybinding
-        { key = "h", mods = "CMD", action = wezterm.action.ActivatePaneDirection("Left") },
-        { key = "l", mods = "CMD", action = wezterm.action.ActivatePaneDirection("Right") },
-        { key = "k", mods = "CMD", action = wezterm.action.ActivatePaneDirection("Up") },
-        { key = "j", mods = "CMD", action = wezterm.action.ActivatePaneDirection("Down") },
+        }
 }
 
 config.use_fancy_tab_bar = false
