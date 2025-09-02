@@ -105,6 +105,7 @@
        markdown          ; writing docs for people to ignore
        ;;latex             ; writing papers in Emacs has never been so fun
        sh                ; she sells {ba,z,fi}sh shells on the C xor
+       json
 
        :config
        ;;literate
