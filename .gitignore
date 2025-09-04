@@ -4,3 +4,4 @@ nvim/lazy-lock.json
 .DS_Store
 emacs/
 spicetify/
+tmux/plugins/

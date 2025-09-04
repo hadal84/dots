@@ -76,3 +76,4 @@
               (message "Inserted board: %s" selected-board)))))))
 
   (advice-add 'platformio-boards :override #'my-corrected-platformio-boards))
+
