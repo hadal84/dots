@@ -27,11 +27,19 @@ config.keys = {
                 mods = "CMD",
                 action = wezterm.action.CloseCurrentPane({ confirm = true }),
         },
+	{
+                key = "w",
+                mods = "CMD",
+                action = wezterm.action.Multiple {
+                    wezterm.action.SendString("tmux kill-session\r"),
+                    wezterm.action.CloseCurrentPane { confirm = false },
+                },
+        },
         {
-    key = 'b',
-    mods = 'CMD|SHIFT',
-    action = wezterm.action.SendKey({ key = 'b', mods = 'CTRL' }),
-  }
+	    key = 'b',
+	    mods = 'CMD|SHIFT',
+	    action = wezterm.action.SendKey({ key = 'b', mods = 'CTRL' }),
+  	}
 }
 
 config.use_fancy_tab_bar = false

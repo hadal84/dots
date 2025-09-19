@@ -63,8 +63,8 @@
 
        :checkers
        syntax              ; tasing you for every semicolon you forget
-       ;;(spell +flyspell) ; tasing you for misspelling mispelling
-       ;;grammar           ; tasing grammar mistake every you make
+       (spell +flyspell) ; tasing you for misspelling mispelling
+       grammar           ; tasing grammar mistake every you make
 
        :tools
        ;;ansible
@@ -86,8 +86,8 @@
        ;;rgb               ; creating color strings
        ;;taskrunner        ; taskrunner for all your projects
        ;;terraform         ; infrastructure as code
-       ;;tmux              ; an API for interacting with tmux.
-       ;;tree-sitter       ; syntax and parsing, sitting in a tree...
+       tmux              ; an API for interacting with tmux.
+       tree-sitter       ; syntax and parsing, sitting in a tree...
        ;;upload            ; map local to remote projects via ssh/ftp
 
        :os
@@ -103,7 +103,6 @@
        (python +lsp)           ; beautiful is better than ugly
 
        markdown          ; writing docs for people to ignore
-       ;;latex             ; writing papers in Emacs has never been so fun
        sh                ; she sells {ba,z,fi}sh shells on the C xor
        json
 
